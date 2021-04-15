@@ -1,0 +1,21 @@
+{
+    "name": "rangerz/magento2-module-template",
+    "description": "Magento 2 module template for composer packages in a github repository.",
+    "require": {
+        "php": ">=7.3",
+        "magento/framework": ">=103"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Rangerz\\Template\\": ""
+        }
+    }
+}
