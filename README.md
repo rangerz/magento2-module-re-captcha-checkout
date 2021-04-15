@@ -23,7 +23,7 @@
     -  `Magento\Checkout\Model\PaymentInformationManagement::savePaymentInformationAndPlaceOrder()`
 - Support Magento 2.4.1 and upper.
 - Wrok for `Braintree Credit Card` with `Google reCaptcha v2 invisible` **ONLY**. No test other cases.
-- ![recaptcha-placeorder](https://i.imgur.com/ACBeBse_d.webp?maxwidth=1520&fidelity=grand)
+- ![recaptcha-placeorder](https://i.imgur.com/ACBeBse.png)
 
 - Hope [magento/security-package](https://github.com/magento/security-package) release soon, and then use the official reCaptcha for place order.
 
@@ -36,6 +36,27 @@ composer require rangerz/magento2-module-re-captcha-checkout
 bin/magento module:enable Rangerz_ReCaptchaCheckout
 bin/magento setup:upgrade
 ```
+
+
+
+## Usage
+
+### Google reCaptcha v2 invisible
+
+- Apply reCaptcha v2 invisible by [Google](https://www.google.com/recaptcha/admin)
+
+- Fille website and secret key
+- Configuration -> SECURITY -> Google reCAPTCHA Storefront -> reCAPTCHA v2 Invisible
+
+![reCaptcha v2 invisible](https://i.imgur.com/RiF9RIE.png)
+
+
+
+### Enable for Place Order
+
+- Configuration -> SECURITY -> Google reCAPTCHA Storefront -> Storefront
+
+![Enable for Place Order](https://i.imgur.com/rlDEoNe.png)
 
 
 
