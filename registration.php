@@ -1,9 +1,5 @@
 <?php
 
-use Magento\Framework\Component\ComponentRegistrar;
+use \Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(
-    ComponentRegistrar::MODULE,
-    'Rangerz_Template',
-    __DIR__
-);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Rangerz_ReCaptchaCheckout', __DIR__);

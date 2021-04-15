@@ -1,8 +1,8 @@
 {
-    "name": "rangerz/magento2-module-template",
-    "description": "Magento 2 module template for composer packages in a github repository.",
+    "name": "rangerz/magento2-module-re-captcha-checkout",
+    "description": "Add Google reCaptcha for place order against carding attack",
     "require": {
-        "php": ">=7.3",
+        "php": ">=7.4",
         "magento/framework": ">=103"
     },
     "type": "magento2-module",
@@ -15,7 +15,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Rangerz\\Template\\": ""
+            "Rangerz\\ReCaptchaCheckout\\": ""
         }
     }
 }
