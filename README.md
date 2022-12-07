@@ -3,10 +3,10 @@
 
 <div align="center">
   <p>Add Google reCaptcha for place order against carding attack</p>
-  <img src="https://img.shields.io/badge/magento-2.4-brightgreen.svg?logo=magento&longCache=true&style=flat-square" alt="Supported Magento Versions" />
-  <a href="https://packagist.org/packages/rangerz/magento2-module-re-captcha-checkout" target="_blank"><img src="https://img.shields.io/packagist/v/rangerz/magento2-module-re-captcha-checkout.svg?style=flat-square" alt="Latest Stable Version" /></a>
+  <img src="https://img.shields.io/badge/magento-2.4-brightgreen.svg?logo=magento&longCache=true" alt="Supported Magento Versions" />
+  <a href="https://packagist.org/packages/rangerz/magento2-module-re-captcha-checkout" target="_blank"><img src="https://img.shields.io/packagist/v/rangerz/magento2-module-re-captcha-checkout.svg" alt="Latest Stable Version" /></a>
   <a href="https://packagist.org/packages/rangerz/magento2-module-re-captcha-checkout" target="_blank"><img src="https://poser.pugx.org/rangerz/magento2-module-re-captcha-checkout/downloads" alt="Composer Downloads" /></a>
-  <a href="https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity" target="_blank"><img src="https://img.shields.io/badge/maintained%3F-yes-brightgreen.svg?style=flat-square" alt="Maintained - Yes" /></a>
+  <a href="https://github.com/rangerz/magento2-module-re-captcha-checkout/graphs/commit-activity" target="_blank"><img src="https://img.shields.io/badge/maintained%3F-yes-brightgreen.svg" alt="Maintained - Yes" /></a>
   <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
 </div>
 
